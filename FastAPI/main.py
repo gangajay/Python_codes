@@ -18,4 +18,4 @@ def sample_api():
 # query parameter
 @app.post('/products')
 def product(details: Details):
-    return f"This is my product id {details.id},name is {details.name}"
+    return f"This is my product id {details.id},names is {details.name}"
